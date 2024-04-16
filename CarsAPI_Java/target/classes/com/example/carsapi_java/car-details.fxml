@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<AnchorPane xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.carsapi_java.CarDetailsController">
+    <VBox alignment="CENTER_LEFT" spacing="10.0" AnchorPane.leftAnchor="10.0" AnchorPane.topAnchor="10.0">
+        <Label fx:id="makeLabel" style="-fx-font-size: 20px; -fx-font-weight: bold;" />
+        <Label fx:id="modelLabel" style="-fx-font-size: 18px;" />
+        <HBox spacing="10.0">
+            <Label text="Year:" style="-fx-font-weight: bold;" />
+            <Label fx:id="yearLabel" style="-fx-font-size: 14px;" />
+        </HBox>
+        <HBox spacing="10.0">
+            <Label text="Class:" style="-fx-font-weight: bold;" />
+            <Label fx:id="classLabel" style="-fx-font-size: 14px;" />
+        </HBox>
+        <HBox spacing="10.0">
+            <Label text="Cylinders:" style="-fx-font-weight: bold;" />
+            <Label fx:id="cylindersLabel" style="-fx-font-size: 14px;" />
+        </HBox>
+        <HBox spacing="10.0">
+            <Label text="Displacement:" style="-fx-font-weight: bold;" />
+            <Label fx:id="displacementLabel" style="-fx-font-size: 14px;" />
+        </HBox>
+        <HBox spacing="10.0">
+            <Label text="Fuel Type:" style="-fx-font-weight: bold;" />
+            <Label fx:id="fuelTypeLabel" style="-fx-font-size: 14px;" />
+        </HBox>
+        <HBox spacing="10.0">
+            <Label text="Transmission:" style="-fx-font-weight: bold;" />
+            <Label fx:id="transmissionLabel" style="-fx-font-size: 14px;" />
+        </HBox>
+        <HBox spacing="10.0">
+            <Label text="Drive:" style="-fx-font-weight: bold;" />
+            <Label fx:id="driveLabel" style="-fx-font-size: 14px;" />
+        </HBox>
+        <HBox spacing="10.0">
+            <Label text="City MPG:" style="-fx-font-weight: bold;" />
+            <Label fx:id="cityMpgLabel" style="-fx-font-size: 14px;" />
+        </HBox>
+        <HBox spacing="10.0">
+            <Label text="Highway MPG:" style="-fx-font-weight: bold;" />
+            <Label fx:id="highwayMpgLabel" style="-fx-font-size: 14px;" />
+        </HBox>
+        <HBox spacing="10.0">
+            <Label text="Combination MPG:" style="-fx-font-weight: bold;" />
+            <Label fx:id="combinationMpgLabel" style="-fx-font-size: 14px;" />
+        </HBox>
+        <Button onAction="#goBack" text="Back" style="-fx-background-color: #c9ada7; -fx-text-fill: white; -fx-font-weight: bold;" />
+    </VBox>
+</AnchorPane>
